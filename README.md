@@ -29,6 +29,23 @@ Para iniciar a aplicação, utilize o seguinte comando:
 python app.py
 ```
 
+É necessário alterar o diretorio dos arquivos em cada página html
+```bash
+<img
+        src="{{ url_for('static', filename='imagens/coronavirus.png') }}"
+        alt="Covid"
+        class="img-fluid"
+      />
+```
+E no app.py em cada route
+
+```bash
+@app.route('/h1n1')
+def h1n1():
+    calc.calculo("h1n1","C:\Plague\plague-inc\static\imagens\h1n1.png")
+    return render_template('h1n1.html')
+```
+
 ## Funcionalidades
 
 1. **Modelo SIR:** A aplicação utiliza o modelo SIR para prever a propagação da doença ao longo do tempo.
