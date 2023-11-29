@@ -4,13 +4,13 @@ Esta aplicação em Python utiliza Flask como framework web, HTML, CSS, Bootstra
 
 # Imagens
 
-![Tela inicial]([https://github.com/seu-usuario/seu-repositorio/raw/master/caminho/para/sua/imagem.png](https://github.com/renanrmoreira/APPD/blob/main/Fotos/pagina-inicial.png))
+![Tela inicial](https://github.com/renanrmoreira/APPD/blob/main/Fotos/pagina-inicial.png)
 
-![Tela doença]([https://github.com/seu-usuario/seu-repositorio/raw/master/caminho/para/sua/imagem.png](https://github.com/renanrmoreira/APPD/blob/main/Fotos/gr%C3%A1fico-metodo-sir.png))
+![Tela doença](https://github.com/renanrmoreira/APPD/blob/main/Fotos/gr%C3%A1fico-metodo-sir.png)
 
-![Tela adicionar doença]([https://github.com/seu-usuario/seu-repositorio/raw/master/caminho/para/sua/imagem.png](https://github.com/renanrmoreira/APPD/blob/main/Fotos/adicionar-doencas.png))
+![Tela adicionar doença](https://github.com/renanrmoreira/APPD/blob/main/Fotos/adicionar-doencas.png)
 
-![Plot doença nova]([https://github.com/seu-usuario/seu-repositorio/raw/master/caminho/para/sua/imagem.png](https://github.com/renanrmoreira/APPD/blob/main/Fotos/plot-doenca-nova.png))
+![Plot doença nova](https://github.com/renanrmoreira/APPD/blob/main/Fotos/plot-doenca-nova.png)
 
 
 
