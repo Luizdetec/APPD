@@ -1,0 +1,75 @@
+body {
+    background: linear-gradient(to bottom right, #e3227c, #8b141e);
+    background-size: 1000% 1000%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {background-position: 0% 50%}
+    50% {background-position: 100% 50%}
+    100% {background-position: 0% 50%}
+}
+
+
+.navbar {
+    height: 150px; 
+    border-radius: 1%; 
+}
+
+.navbar img {
+    height: 130px;
+    width: auto; 
+    object-fit: contain; 
+}
+.team-box {
+    border: 1px solid #ddd;
+    padding: 16px;
+    margin-bottom: 16px;
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+    margin: 10px 10px;
+}
+.team-box a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+    color: whitesmoke;
+    border-radius: 15px;
+}
+
+.team-box img {
+    max-height: 120px;
+    margin-bottom: 8px;
+    width: auto;
+}
+.container .row {
+    display: flex;
+    justify-content: center;
+}
+
+.escrita{
+    display: flex;
+    font-size: larger;
+}
+
+.conteudoH1N1{
+    text-align: center;
+    margin-top:100px;
+    margin-bottom: 50px;
+}
+
+.titulo{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    -webkit-text-stroke: 1px rgb(35, 34, 34);
+}
+
+.smaller-input {
+    font-size: 15px; /* Ou outro tamanho desejado */
+}

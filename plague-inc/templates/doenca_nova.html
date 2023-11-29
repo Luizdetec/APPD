@@ -1,0 +1,45 @@
+{% extends 'base.html' %} {% block conteudo %}
+<form action="{{url_for('doenca_nova')}}" method="POST">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <input class="form-control rounded-pill smaller-input mb-2" type="text" placeholder="Digite o nome da doença" name="nome_doenca">
+                </div>
+                <div class="form-group">
+                    <input class="form-control rounded-pill smaller-input mb-2" type="number" placeholder="Digite a taxa de variação de Beta" name="beta" min="0" max="1000" step="0.01">
+                </div>
+                <div class="form-group">
+                    <input class="form-control rounded-pill smaller-input mb-2" type="number" placeholder="Digite a taxa de variação de Gamma" name="gamma" min="0" max="1000" step="0.01">
+                </div>
+                <div class="form-group">
+                    <input class="form-control rounded-pill smaller-input mb-2" type="number" placeholder="Digite a taxa de variação de tempo em dias" name="tempo" min="10" max="1000">
+                </div>
+                <div class="form-group text-center">
+                    <button class="btn btn-success mt-2">Adicionar</button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="conteudoH1N1" >
+        <div class = "titulo">Gráfico do método SIR para a nova Patologia</div>
+        <img src="{{ url_for('static', filename='imagens/doenca_nova.png') }}" alt="Gráfico doença nova" class="img-fluid">
+    </div>
+    
+    <div class="container">
+        <h2 class="text-center mt-4 mb-4 text-white">Histórico de doenças catalogadas</h2>
+        <ul class="list-group mx-auto" style="max-width: 50%; background-color: #2e2828;">
+            {% for doenca in lista_historico %}
+                <li class="list-group-item text-white bg-danger text-center align-items-center d-flex" style="font-size: 1.2rem;">
+                    {{ doenca }}
+                </li>
+            {% endfor %}
+        </ul>
+    </div>  
+</form>
+
+
+
+{% endblock conteudo%}
